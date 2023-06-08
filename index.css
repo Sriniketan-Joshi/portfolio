@@ -1,0 +1,104 @@
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+			font-family: 'Caveat';
+			font-size: 25px;
+		}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	font-size: 15px;
+}
+
+.bg-color-name-intro {
+	background-color: rgb(176, 176, 176);
+}
+
+.name {
+	color: red;
+}
+
+.name-text {
+	letter-spacing: 5px;
+}
+
+/*.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}*/
+
+.demo a {
+  position: absolute;
+  bottom: 60px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  padding-bottom: 40px;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  text-transform: uppercase; }
+  .hero__scroll .chevron {
+    margin-top: 20px;
+    display: block;
+    -webkit-animation: pulse 2s infinite;
+            animation: pulse 2s infinite;
+    color: #FF4081;}
+
+.scroll-button {
+	color: lightgreen;
+}
+
+.name-intro-text {
+	color: darkgreen;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+/*.carousel-item {
+	width: 500px;
+	height: 400px;
+}
+*/
+.text-left {
+	align-items: left;
+	text-align: left;
+}
+
+.text-right {
+	align-items: right;
+	text-align: right;
+}
+
+.footer {
+	font-family: 'Open Sans';
+	font-size: 15px;
+}
